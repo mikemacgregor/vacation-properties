@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>COMP1073 Javascript - Module 3 Project</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/spacelab/bootstrap.min.css">
+<link href="style.css" rel="stylesheet">
+<script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
+<script src="carousel.js" defer></script>
+<script src="main.js" defer></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <header class="row">
+      <h1>Module 3 Project</h1>
+    </header>
+    <main class="row">
+      <div id="description" class="col-3">
+      </div>
+      <div id="images" class="col-6">
+        <div id="board">
+        </div>
+        <div id="imageCredit" class="text-center text-muted"></div>
+      </div>
+      <div id="availability" class="col-3">
+        <div class="form-group">
+          <input type="hidden" id="propertyId" value="0">
+          <label for="calendar" class="control-label">Check Availability</label>
+          <input type="date" class="form-control" id="calendar" name="calendar" placeholder="" value="">
+        </div>
+        <div id="isAvailable">
+        </div>
+      </div>
+    </main>
+    <footer class="row">
+      <p>COMP1073, Module 3 Project, Vacation Rental Properties<br />
+      Mike MacGregor #200232817<br />
+      March 16, 2020</p>
+    </footer>
+  </div>
+</body>
+</html>
